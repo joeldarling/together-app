@@ -1,0 +1,44 @@
+  <md-content style="margin:auto;width:90%;padding-left:10px">
+  <div layout="column">
+    <h3 class="md-title" ng-show="newEvent.time">Event Start Time: {{newEvent.time}}</h3>
+    <h3 class="md-title" ng-show="newEvent.endTime">Event End Time: {{newEvent.endTime}}</h3>
+    <!-- <div ng-show="!activeArrayKey">Click the timeline again to add another event</div> -->
+    <form name="newEventForm" ng-show="activeArrayKey">
+
+    <md-input-container style="margin-top:10px">
+      <label>Select Action</label>
+      <md-select id="actionsDropdown" ng-model="newEvent.action">
+        <md-select-header>
+          <span> Action - </span>
+        </md-select-header>
+        <md-option ng-value="action" required ng-repeat="action in eventGroupings[activeArrayKey].actions">{{ actionsObj[action].label }}</md-option>
+      </md-select>
+    </md-input-container>
+    <div>
+      <div layout="row" ng-repeat="param in actionsObj[newEvent.action].params" ng-show="param.reqColorPicker">
+        <div flex="50" md-color-picker
+              ng-model="newEvent.params[param.name]"
+              label="Choose a {{param.name}}"
+              icon="brush"
+              default="f00"
+              md-color-generic-palette="false"
+              md-color-history="false">
+        </div>
+        <md-button style="margin-top:15px;margin-bottom:45px" class="md-raised" ng-click="selectRandomColor(param.name)">Select Random Color</md-button>
+      </div>
+      <!-- <div ng-click="randomColor()" flex>
+      </div> -->
+      <md-input-container
+        ng-repeat="param in actionsObj[newEvent.action].params"
+        ng-show="!param.reqColorPicker">
+        <label>{{ param.name }}</label>
+        <input ng-model="newEvent.params[param.name]">
+      </md-input-container>
+    </div>
+
+
+    </form>
+</div>
+</md-content>
+
+<!-- <md-divider ng-if="show.events"></md-divider> -->

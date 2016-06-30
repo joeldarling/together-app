@@ -1,0 +1,39 @@
+<md-content layout="column" layout-align="center center">
+  <form name="showForm" layout="column" ng-disabled="disableSidebar">
+    <md-input-container class="md-block">
+      <label>Show Name</label>
+      <input name="name" ng-model="show.name">
+    </md-input-container>
+    <md-input-container class="md-block">
+      <label>BPM</label>
+      <input name="bpm" ng-model="show.settings.bpm">
+    </md-input-container>
+
+    <div class="md-block">
+    <!-- <md-input-container>
+      <input type="file" id="file" />
+    </md-input-container> -->
+    <!-- <md-button class="md-raised"><input type="file" id="file1" /></md-button>
+    <md-button class="md-raised"><input type="file" id="file2" /></md-button> -->
+
+      <lf-ng-md-file-input name="fileUpload" lf-browse-label="Browse" lf-caption="" lf-required accept="audio/*" lf-files="files"></lf-ng-md-file-input>
+      <div ng-messages="showForm.fileUpload.$error" ng-show="!showForm.fileUpload.$pristine" style="color:red">
+        <div ng-message="required">This is required.</div>
+      </div>
+      <div layout="column" layout-align="center center" ng-show="show.song.name">
+        <button class="md-raised md-primary lf-ng-md-file-input-button md-ink-ripple md-button">
+          <md-icon md-font-set="material-icons">music_note</md-icon>{{show.song.name}}
+        </button>
+      </div>
+      <!-- <md-input-container ng-show="song.name">
+        <label>Song</label>
+        <input type="text" ng-model="song.name">
+      </md-input-container> -->
+
+    </div>
+    <!-- <div style="width:90%;margin:auto"> -->
+    <md-divider style="margin-top:20px"></md-divider>
+      <md-button style="margin-top:20px;margin-left:55px;margin-right:55px" ng-click="goToTimelines()" ng-disabled="!show.song.name || disableSidebar" class="md-accent md-raised">Next >></md-button>
+    <!-- </div> -->
+  </form>
+</md-content>

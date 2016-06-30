@@ -1,0 +1,35 @@
+hr {
+  width: 100px;
+  /*height: 10px;*/
+}
+
+.timelines {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+span.ruler {
+  height: 1px;
+}
+
+div.ruler1 {
+  /*height: 1px;*/
+  length: 100px;
+  border-top: 1px;
+}
+
+div.selected1 {
+  background-color: rgb(89, 226, 168);
+}
+
+div.selected2 {
+  background-color: #CAFCFC;
+}
+
+div.selected3 {
+  background-color: #FCCACA;
+}
+
+timeline-directive.not-selected {
+  background-color: white;
+}
