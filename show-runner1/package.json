@@ -1,0 +1,41 @@
+{
+  "name": "capstone-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksdao/jaj-adminstooge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksdao/jaj-adminstooge/issues"
+  },
+  "homepage": "https://github.com/aleksdao/jaj-adminstooge#readme",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-animate": "^1.5.5",
+    "angular-aria": "^1.5.5",
+    "angular-audio": "^1.7.2",
+    "angular-material": "^1.1.0-rc4-master-06e7e99",
+    "angular-sanitize": "^1.5.7",
+    "angular-ui-router": "^0.3.0",
+    "body-parser": "^1.15.1",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "ng-toast": "^2.0.0",
+    "nodemon": "^1.9.2",
+    "path": "^0.12.7",
+    "request": "^2.72.0",
+    "socket.io": "^1.4.6",
+    "startaudiocontext": "^1.1.0",
+    "swig": "^1.4.2",
+    "tone": "^0.6.1"
+  }
+}
