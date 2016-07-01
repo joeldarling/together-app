@@ -1,0 +1,40 @@
+{
+  "name": "angular-tone",
+  "description": "Make Music with AngularJS! This Module wraps ToneJS together with many music UI elements such as keyboards and pads.",
+  "main": [
+    "dist/angular-tone.js",
+    "dist/css/style.css"
+  ],
+  "version": "0.0.1",
+  "authors": [
+    "Felix Roos <roos@entrecode.de>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "https://github.com/felixroos/angular-tone",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "angular": "^1.5.3",
+    "tone": "*",
+    "qwerty-hancock": "^0.5.1"
+  },
+  "resolutions": {
+    "jquery": "~2.2.0"
+  },
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "100de04e4193977ea4f76a1a93bfbdbaac578286"
+  },
+  "_source": "https://github.com/felixroos/angular-tone.git",
+  "_target": "^0.0.1",
+  "_originalSource": "angular-tone"
+}

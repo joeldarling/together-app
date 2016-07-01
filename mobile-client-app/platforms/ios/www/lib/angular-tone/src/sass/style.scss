@@ -1,0 +1,57 @@
+body {
+  background-color: #fc8c84;
+}
+
+.tone-poti {
+  display: inline-block;
+  position: relative;
+  .poti-container {
+    position: relative;
+    left: 0;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    margin: 4px;
+    overflow: hidden;
+    display: inline-block;
+    .poti-rotator {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border-radius: inherit;
+      border-style: solid;
+      box-sizing: border-box;
+      position: absolute;
+      top: 0;
+      pointer-events: none;
+      &:before {
+        pointer-events: none;
+        content: '';
+        width: 2%;
+        margin-left: 49%;
+        height: 30%;
+        display: block;
+        background-color: #000;
+      }
+    }
+  }
+  .poti-value {
+    position: absolute;
+    top: 0;
+  }
+  .poti-label {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  user-select: none;
+  /* non-prefixed version, currently
+                         not supported by any browser */
+}

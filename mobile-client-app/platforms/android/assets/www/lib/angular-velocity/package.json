@@ -1,0 +1,50 @@
+{
+  "name": "angular-velocity",
+  "version": "0.3.1",
+  "description": "AngularJS ngAnimate integration for the Velocity animation library UI pack plugin",
+  "main": "angular-velocity.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgwyllie/angular-velocity.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "angular",
+    "ngAnimate",
+    "VelocityJS",
+    "animation"
+  ],
+  "author": {
+    "name": "Christopher Wyllie"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgwyllie/angular-velocity/issues"
+  },
+  "homepage": "https://github.com/cgwyllie/angular-velocity",
+  "dependencies": {},
+  "gitHead": "715286f82c3cb406dfd83f944ec2eb486651d232",
+  "_id": "angular-velocity@0.3.1",
+  "_shasum": "a36730682fb290832e4d37044847110e842497cd",
+  "_from": "angular-velocity@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "cgwyllie",
+    "email": "cgwyllie@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "cgwyllie",
+      "email": "cgwyllie@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "a36730682fb290832e4d37044847110e842497cd",
+    "tarball": "https://registry.npmjs.org/angular-velocity/-/angular-velocity-0.3.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/angular-velocity/-/angular-velocity-0.3.1.tgz"
+}

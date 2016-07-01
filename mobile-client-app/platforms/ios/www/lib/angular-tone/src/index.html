@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>angular.tone</title>
+  <!-- inject:css -->
+  <!-- endinject -->
+</head>
+<body ng-app="ec.angular.tone.demo">
+<div ng-controller="SynthCtrl">
+  <h1>Angular-Tone Demo</h1>
+
+  <p>This is the Demo of angular-tone, an AngularJS wrapper for ToneJS to easily create Music Applications. It features
+    the following UI Components:</p>
+
+  <h2>Keyboard</h2>
+
+  <p>Angular wrapper for <a href="http://stuartmemo.com/qwerty-hancock/">Qwerty Hancock</a>, with extra options to
+    connect with ToneJS:</p>
+  <keyboard id="fat" width="500" synth="fatSynth"></keyboard>
+  <h2>Poti</h2>
+  <poti ng-model="fatSynth.envelope.attack" label="attack" size="100" min="0" max="100" places="2"></poti>
+  <h2>Mixer</h2>
+  <mixer ng-model="fatSynth.envelope"></mixer>
+  <h2>Pad</h2>
+  <pad on-trigger="playSynth"></pad>
+  <h2>Matrix</h2>
+  <matrix width="4" height="4" on-trigger="playSynth"></matrix>
+</div>
+<!-- inject:js -->
+<!-- endinject -->
+</body>
+</html>

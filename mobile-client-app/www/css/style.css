@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'RalewayLight';
+    src: url('fonts/RalewayLight.eot');
+    src: url('fonts/RalewayLight.eot') format('embedded-opentype'),
+         url('fonts/RalewayLight.woff2') format('woff2'),
+         url('fonts/RalewayLight.woff') format('woff'),
+         url('fonts/RalewayLight.ttf') format('truetype'),
+         url('fonts/RalewayLight.svg#RalewayLight') format('svg');
+}
+
+@font-face {
+    font-family: 'RalewayThin';
+    src: url('fonts/RalewayThin.eot');
+    src: url('fonts/RalewayThin.eot') format('embedded-opentype'),
+         url('fonts/RalewayThin.woff2') format('woff2'),
+         url('fonts/RalewayThin.woff') format('woff'),
+         url('fonts/RalewayThin.ttf') format('truetype'),
+         url('fonts/RalewayThin.svg#RalewayThin') format('svg');
+}
+
+
+body {
+  font-family: 'RalewayLight';
+}
+
+.button.button-grey {
+    border-color: #585858;
+    background-color: #585858;
+    color: #fff; }
+    .button.button-grey:hover {
+      color: #fff;
+      text-decoration: none; }
+    .button.button-grey.active, .button.button-grey.activated {
+      border-color: #585858;
+      background-color: #686868;
+      box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+    .button.button-grey.button-clear {
+      border-color: transparent;
+      background: none;
+      box-shadow: none;
+      color: #585858; }
+    .button.button-grey.button-icon {
+      border-color: transparent;
+      background: none; }
+    .button.button-grey.button-outline {
+      border-color: #585858;
+      background: transparent;
+      color: #585858; }
+      .button.button-grey.button-outline.active, .button.button-grey.button-outline.activated {
+        background-color: #585858;
+        box-shadow: none;
+        color: #fff; }
+
+/*End*/
+
+.light{
+	background-color: #2E2E31;
+}
+
+.linegrey{
+
+	background-color: #2E2E31;
+	border:none;
+	border-bottom: 1px solid #8DB4B4;
+}
+
+.top180{
+	margin-top: 180px;
+}
+
+input.white{
+	color:#fff;
+	font-size:18px;
+}
+
+.right8{
+	right: 8px;
+}
+
+.light-grey{
+	background-color: #EDEBEE;
+	border:0px;
+}
+
+.line-light-grey{
+	background-color: #EDEBEE;
+	border:none;
+	border-bottom: 1px solid #8DB4B4;
+}
+
+.bottommsg{
+	position: fixed;
+	bottom:0px;
+	width: 100%;
+}
+
+.divsend{
+	background-color:#D5D5D9;
+	margin-left: 7px;
+}
+
+.iconsend{
+	font-size: 18px;
+}
+
+.width70{
+	width: 75%;
+	margin-right:0px;
+}
+
+.log{
+	text-align:center;
+	font-size: 13px;
+	color: #8A8A8A;
+	padding: 7px 14px 7px 14px;
+
+}
+
+.message{
+	padding: 7px 14px 7px 14px;
+    font-size: 16px;
+}
+
+.nopadtop{
+padding-top: 0px;
+}
+
+.content{
+	bottom:68px;
+}
+.button.button-full.button-positive{
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a.item.ng-binding{
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cameraButton{
+  margin-top: 75px;
+}
+
+.input-width {
+  margin: 0 auto;
+  width: 90%;
+  border-style: none;
+}
+#stagingPage{
+  background-color: #010101;
+  text-align: center;
+  font-size: 20px;
+  color: #f6f6f6;
+  font-family: 'RalewayLight';
+  background: url('../img/staging_bg.png') center;
+  background-size: cover;
+
+}
+#showPage {
+  background-color: #010101;
+  text-align: center;
+}
+#cameraPage{
+  background-color: #010101;
+  text-align: center;
+  color: white;
+}
+
+#cameraPage h3{
+  color: white;
+
+}
+
+#showTitle {
+  padding-top: 100px;
+}
+
+#showBody {
+  margin-top: 90px;
+}
+
+#loginPage {
+  background: url('../img/samplebg.png') center;
+  background-size: cover;
+
+}
+
+.app-logo {
+  margin-top: 100px;
+  font-size: 80px;
+  color: white;
+  font-family: 'RalewayThin'
+}
+
+.center-message{
+  font-size: 25px;
+  margin-top: 200px;
+  color: white;
+  font-family: 'RalewayLight'
+}
+
+.blank-page{
+  background-color: #010101;
+  text-align: center;
+  font-size: 20px;
+  color: #f6f6f6;
+  font-family: 'RalewayLight';
+  background: url('../img/staging_bg.png') center;
+  background-size: cover;
+
+}

@@ -1,0 +1,24 @@
+{
+  "name": "tone-sandbox",
+  "version": "1.0.0",
+  "description": "Playground for ToneJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-filter": "^3.0.1",
+    "gulp-inject": "^3.0.0",
+    "gulp-main-bower-files": "^1.3.1",
+    "gulp-sass": "^2.2.0",
+    "run-sequence": "^1.1.5",
+    "wiredep": "^3.0.0"
+  }
+}
