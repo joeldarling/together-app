@@ -1,8 +1,2 @@
 node_modules
 bower_components
-photo-server/server/uploads
-photo-server/browser/images/composed_files
-photo-server/browser/images/g_c_files
-photo-server/browser/images/g_c_files*
-photo-server/node_modules
-photo-server/browser/images/composed*
